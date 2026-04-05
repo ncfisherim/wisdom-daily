@@ -122,3 +122,45 @@ button {
 button:hover {
   background: #F0E9DF;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1C1917;
+  }
+
+  .container {
+    background: #28211E;
+  }
+
+  .quote-text {
+    color: #E8DDD3;
+  }
+
+  .reflect-text {
+    color: #C4B49E;
+  }
+
+  .site-title, .attribution, button {
+    color: #A89880;
+  }
+
+  .date, .thread, .reflect-label, .tradition {
+    color: #7A6A5A;
+  }
+
+  .divider {
+    background: #3D3028;
+  }
+
+  .separator {
+    color: #3D3028;
+  }
+
+  button {
+    border-color: #3D3028;
+  }
+
+  button:hover {
+    background: #332820;
+  }
+}
